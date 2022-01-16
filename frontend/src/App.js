@@ -4,7 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h2>MERN Ecommerce</h2>
+     {/* Navbar */}
+     {/* SideDrawar */}
+     {/* Backdrop */}
+     {/* HomeScreen */}
+     {/* ProductScreen */}
+     {/* CartScreen */}
     </div>
   );
 }

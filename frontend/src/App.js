@@ -7,14 +7,16 @@ import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import Navbar from './components/Navbar';
+import Backdrop from './components/Backdrop';
+import SideDrawer from './components/SideDrawer';
 
 function App() {
   return (
     <Router>
     <div className="App">
      <Navbar />
-     {/* SideDrawar */}
-     {/* Backdrop */}
+     <SideDrawer />
+     <Backdrop />
      <main>
        <Routes>
          <Route exact path="/" element={<HomeScreen />} />

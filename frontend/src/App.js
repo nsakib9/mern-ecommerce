@@ -6,12 +6,13 @@ import {BrowserRouter as Router, Routes, Switch, Route} from  'react-router-dom'
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
     <div className="App">
-     {/* Navbar */}
+     <Navbar />
      {/* SideDrawar */}
      {/* Backdrop */}
      <main>
